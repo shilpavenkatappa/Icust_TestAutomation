@@ -8,6 +8,12 @@ import base.IcustSpecificMethods;
 
 public class IcustCorporateDirectorDetails extends IcustSpecificMethods{
 	
+	public IcustCorporateDirectorDetails numberOfDirectors() {
+		enterValue(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.NoOfDirectors.Xpath")), props.getProperty("NoOfDirectors"));
+		wait(2000);
+		return this;
+	}
+	
 	public IcustCorporateDirectorDetails enterCIFNumber() {
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.CIFNumberToggle.Xpath")));
 		wait(2000);

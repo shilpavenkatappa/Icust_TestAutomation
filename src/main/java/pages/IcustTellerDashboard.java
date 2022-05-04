@@ -29,10 +29,10 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		return new IcustNewCustomerOnboarding1();
 	}
 	
-	public ICustCorporatePrimaryInformation clickCorporateProceed() {
+	public ICustCorporateBasicInformation clickCorporateProceed() {
 		clickElement(locateElement("xpath", props.getProperty("IcustKYCVerification.Proceed.Xpath")));
 		wait(2000);
-		return new ICustCorporatePrimaryInformation();
+		return new ICustCorporateBasicInformation();
 	}
 	
 	public IcustCustomerOnboardingTaskSummary clickCustomerOnboardingTaskSummary() {
