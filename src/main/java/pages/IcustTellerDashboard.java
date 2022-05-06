@@ -109,4 +109,10 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.TokenServices.clickToggleButton.Xpath")));		
 		return new IcustTokenServices();
 	}
+	
+	public IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
+		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.TellerButton.Xpath")));
+		wait(30000);
+		return new IcustCorporateOnboardingTaskSummary();
+	}
 }

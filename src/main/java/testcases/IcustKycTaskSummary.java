@@ -19,5 +19,6 @@ public class IcustKycTaskSummary extends IcustSpecificMethods{
 		.enterSearchValue()
 		.clickKYC()
 		.clickApproveButton();
+	
 	}
 }
