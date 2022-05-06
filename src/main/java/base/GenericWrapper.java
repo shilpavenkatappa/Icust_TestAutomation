@@ -38,7 +38,7 @@ public class GenericWrapper {
 		try {
 			
 			
-			System.setProperty("webdriver.chrome.driver", "D:\\TestLeaf\\Workspace\\Maven\\ICUST_Automation\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "F:/AutomationProject/Icust_TestAutomation/drivers/chromedriver1.exe");
 			  
 			/*
 			 * HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
@@ -54,7 +54,7 @@ public class GenericWrapper {
 					  );
 			 
 			  //options.setExperimentalOption("prefs", chromePrefs);
-			  options.addArguments("user-data-dir=C:/Users/NPR1002/AppData/Local/Google/Chrome/User Data");
+			  options.addArguments("user-data-dir=C:/User/Admin/AppData/Local/Google/Chrome/User Data");
 			  
 			  driver = new ChromeDriver(options);
 			  
