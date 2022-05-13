@@ -115,4 +115,9 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		wait(30000);
 		return new IcustCorporateOnboardingTaskSummary();
 	}
+	public pages.IcustLoanAccountAdmissionDetails IcustLoanAccountAdmissionDetailsNextButton() {
+		clickElement(locateElement("xpath", props.getProperty("IcustLoanAccountAdmissionDetails.nextButton.Xpath")));
+		wait(30000);
+		return new IcustLoanAccountAdmissionDetails();
+	}
 }
