@@ -28,6 +28,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.IcustCreateAccountDetails;
 
+@SuppressWarnings("unused")
 public class GenericWrapper {
 
 	public static RemoteWebDriver driver;
