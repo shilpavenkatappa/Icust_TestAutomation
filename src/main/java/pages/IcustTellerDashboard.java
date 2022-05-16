@@ -120,4 +120,25 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		wait(30000);
 		return new IcustLoanAccountAdmissionDetails();
 	}
+	public IcustMaintenance clickProfileIcon() {
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.profile.Xpath")));
+		return new IcustMaintenance();
+	}
+	public LoanCollateralDetails clickCreateLoanAccount() {
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Createloanaccount.Xpath")));
+		return new LoanCollateralDetails();
+	}
+	
+//	public IcustTellerDashboard clickSearch() {
+//		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Search.Xpath")));
+//		return this;
+//	}
+	public IcustTellerDashboard enterAccountId() {
+		enterValue(locateElement("xpath", props.getProperty("IcustTellerDashboard.AccountId.Xpath")),props.getProperty("AccountId"));
+		return this;
+	}
+	public Dashboard360 clickProfile() {
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Profile.Xpath")));
+		return new Dashboard360();
+	}
 }
