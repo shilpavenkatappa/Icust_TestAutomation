@@ -22,7 +22,7 @@ public class LoanAccountServices extends IcustSpecificMethods{
 		wait(2000);
 		clickElement(datepickIcon);
 		wait(2000);
-		List<WebElement> allDates=driver.findElementsByXPath("//table[@class='mat-calendar-table']//td");
+		java.util.List<WebElement> allDates=driver.findElementsByXPath("//table[@class='mat-calendar-table']//td");
 		for(WebElement ele:allDates)
 		{			
 			String date=ele.getText();
