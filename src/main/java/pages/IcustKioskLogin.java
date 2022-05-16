@@ -1,6 +1,5 @@
 package pages;
 import base.ICUSTKIOSKMethods;
-import base.IcustSpecificMethods;
 
 
 public class IcustKioskLogin extends ICUSTKIOSKMethods{

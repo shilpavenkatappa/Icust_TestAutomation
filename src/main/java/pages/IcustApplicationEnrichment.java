@@ -1,6 +1,5 @@
 package pages;
 
-import org.openqa.selenium.WebElement;
 import base.IcustSpecificMethods;
 
 public class IcustApplicationEnrichment extends IcustSpecificMethods {

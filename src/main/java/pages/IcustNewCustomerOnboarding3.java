@@ -1,16 +1,6 @@
 package pages;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
-import java.io.IOException;
-
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-
 import base.IcustSpecificMethods;
 
 public class IcustNewCustomerOnboarding3 extends IcustSpecificMethods {

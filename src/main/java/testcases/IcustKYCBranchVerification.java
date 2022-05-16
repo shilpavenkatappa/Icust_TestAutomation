@@ -1,11 +1,8 @@
 package testcases;
 
 import java.awt.AWTException;
-import java.io.IOException;
-
 import org.testng.annotations.Test;
 
-import base.GenericWrapper;
 import base.IcustSpecificMethods;
 import pages.IcustTellerLogin;
 

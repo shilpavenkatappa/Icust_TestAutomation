@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 
 import base.IcustMobileSpecificMethods;
 import pages.ICustMobileLogin;
-import pages.IcustKioskLogin;
 
 public class ICustMobileCashDeposit extends IcustMobileSpecificMethods{
 

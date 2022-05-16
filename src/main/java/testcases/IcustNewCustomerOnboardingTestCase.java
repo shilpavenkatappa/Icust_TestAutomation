@@ -6,7 +6,6 @@ import java.io.IOException;
 import org.testng.annotations.Test;
 
 import base.IcustSpecificMethods;
-import pages.IcustNewCustomerOnboarding3;
 import pages.IcustTellerLogin;
 
 public class IcustNewCustomerOnboardingTestCase extends IcustSpecificMethods {

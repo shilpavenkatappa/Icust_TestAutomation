@@ -1,6 +1,5 @@
 package testcases;
 import base.ICUSTKIOSKMethods;
-import base.IcustSpecificMethods;
 import pages.IcustKioskLogin;
 
 import org.testng.annotations.Test;
