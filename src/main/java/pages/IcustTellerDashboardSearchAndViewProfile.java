@@ -24,6 +24,10 @@ public class IcustTellerDashboardSearchAndViewProfile extends IcustSpecificMetho
 		return this;
 
 	}
+	public IcustTellerDashboardSearchAndViewProfile enterAccountId() {
+		enterValue(locateElement("xpath", props.getProperty("IcustTellerDashboard.AccountId.Xpath")),props.getProperty("AccountId"));
+		return new IcustTellerDashboardSearchAndViewProfile();
+	}
 	
 
 }

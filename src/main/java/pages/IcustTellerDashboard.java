@@ -120,4 +120,12 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		wait(30000);
 		return new IcustLoanAccountAdmissionDetails();
 	}
+	public LoanCollateralDetails clickCreateLoanAccount() {
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Createloanaccount.Xpath")));
+		return new LoanCollateralDetails();
+	}
+	public Dashboard360 clickProfile() {
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Profile.Xpath")));
+		return new Dashboard360();
+	}
 }
