@@ -124,10 +124,10 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.profile.Xpath")));
 		return new IcustMaintenance();
 	}
-	public LoanCollateralDetails clickCreateLoanAccount() {
-		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Createloanaccount.Xpath")));
-		return new LoanCollateralDetails();
-	}
+//	public LoanCollateralDetails clickCreateLoanAccount() {
+//		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Createloanaccount.Xpath")));
+//		return new LoanCollateralDetails();
+//	}
 	
 //	public IcustTellerDashboard clickSearch() {
 //		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Search.Xpath")));
@@ -137,8 +137,8 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		enterValue(locateElement("xpath", props.getProperty("IcustTellerDashboard.AccountId.Xpath")),props.getProperty("AccountId"));
 		return this;
 	}
-	public Dashboard360 clickProfile() {
-		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Profile.Xpath")));
-		return new Dashboard360();
-	}
+//	public Dashboard360 clickProfile() {
+//		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Profile.Xpath")));
+//		return new Dashboard360();
+//	}
 }

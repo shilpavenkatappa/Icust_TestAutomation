@@ -2,15 +2,14 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-import pages.IcustLogin;
 
-
+import pages.IcustTellerLogin;
 import base.IcustSpecificMethods;
 
 public class LoginTestcases extends IcustSpecificMethods{
 	@Test
 	public void runLoginTestcases() {
-		IcustLogin login= new IcustLogin();
+		IcustTellerLogin login= new IcustTellerLogin();
 		login.enterUsername()
 		.enterPassword()
 		.clickSignInButton();
