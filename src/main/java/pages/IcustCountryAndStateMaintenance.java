@@ -61,8 +61,8 @@ public class IcustCountryAndStateMaintenance extends IcustSpecificMethods{
 		
 	}
 
-	public IcustMaintenanceEditCountryandState selectSave() {
+	public IcustCountryAndStateMaintenance selectSave() {
 		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Maintenance.CountryAndState.AddNew.Save.Xpath")));
-		return new IcustMaintenanceEditCountryandState();
+		return this;
 	}
 }
