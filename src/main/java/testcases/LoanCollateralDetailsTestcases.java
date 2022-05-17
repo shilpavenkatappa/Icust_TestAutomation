@@ -2,13 +2,15 @@ package testcases;
 
 import org.testng.annotations.Test;
 
+
 import base.IcustSpecificMethods;
-import pages.IcustLogin;
+
+import pages.IcustTellerLogin;
 
 public class LoanCollateralDetailsTestcases extends IcustSpecificMethods{
 	@Test
 	public void runLoanCollateralDetailsTestcases() {
-	IcustLogin login= new IcustLogin();
+	IcustTellerLogin login= new IcustTellerLogin();
 	login.enterUsername()
 	.enterPassword()
 	.clickSignInButton()
