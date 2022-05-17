@@ -47,8 +47,8 @@ public class IcustEditState extends IcustSpecificMethods{
 	}
 	
 	
-	public IcustMaintenanceEditCountryandState selectUpdate() {
+	public IcustEditState selectUpdate() {
 		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Maintenance.State.Edit.Update.Xpath")));
-		return new IcustMaintenanceEditCountryandState();
+		return this;
 	}
 }
