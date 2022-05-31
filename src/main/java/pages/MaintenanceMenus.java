@@ -25,4 +25,13 @@ public class MaintenanceMenus extends IcustSpecificMethods{
 		clickElement(locateElement("xpath", props.getProperty("MaintenanceMenus.VaultDenomination.Xpath")));
 		return new VaultDenominationMaintenance();
 }
+	public TransactionCashMasterMaintenance clickTransactionCashMasterMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("Maintenance.AddTransactionCashMasterMaintenance.Xpath")));
+		return new TransactionCashMasterMaintenance();
+	}
+
+	public TransactionChargesMaintenance clickTransactionChargesMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("Maintenance.clickTransactionChargesMaintenance.Xpath")));
+		return new TransactionChargesMaintenance();
+	}
 }
